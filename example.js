@@ -82,7 +82,6 @@ var App = (function (_Component) {
           })
         })
       });
-      console.log(1);
       window.requestAnimationFrame(this.animationStep);
     }
   }, {
