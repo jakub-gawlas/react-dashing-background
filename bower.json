@@ -1,0 +1,29 @@
+{
+  "name": "react-dashing-background",
+  "version": "0.0.0",
+  "description": "react-dashing-background",
+  "main": "dist/react-dashing-background.min.js",
+  "homepage": "https://github.com/jakub-gawlas/react-dashing-background",
+  "authors": [
+    "Jakub Gawlas"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
