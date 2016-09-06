@@ -59,7 +59,6 @@ class App extends Component {
         }
       }
     })
-    console.log(1)
     window.requestAnimationFrame(this.animationStep)
   }
 

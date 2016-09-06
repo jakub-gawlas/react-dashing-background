@@ -1,6 +1,6 @@
 # react-dashing-background
 
-__COMPONENT DESCRIPTION GOES HERE__
+Widely configurable background generator based on canvas. 
 
 
 ## Demo & Examples
@@ -30,23 +30,64 @@ npm install react-dashing-background --save
 
 ## Usage
 
-__EXPLAIN USAGE HERE__
-
 ```
 import DashingBackground from 'react-dashing-background';
 
-<DashingBackground {...props}>
+const backgroundProps = {
+  // Example properties below
+}
+
+<DashingBackground {...backgroundProps}>
   <p>Your browser doesn't support canvas</p>
 </DashingBackground>
 ```
 
 ### Properties
 
-* __DOCUMENT PROPERTIES HERE__
+* Example
+
+```
+{
+  gradient: {
+    stops: [
+      {
+        offset: 0,
+        color: 'rgb(28,82,123)'
+      },
+      {
+        offset: 1,
+        color: 'rgb(18,53,80)'
+      }
+    ]
+  },
+  lines: {
+    width: 2,
+    color: 'rgb(47,115,162)',
+    interval: 200,
+    angle: Math.PI/2,
+    offset: {
+      x: 0,
+      y: 0
+    },
+    dash: {
+      segments: [10, 12],
+      offset: 0
+    },
+    shadow: {
+      color: 'white',
+      blur: 0,
+      offset: {
+        x: 0,
+        y: 0
+      }
+    }
+  }
+}
+```
 
 ### Notes
 
-__ADDITIONAL USAGE NOTES__
+Background adjusts dimensions to the parent node.
 
 
 ## Development (`src`, `lib` and the build process)
@@ -57,7 +98,7 @@ To build, watch and serve the examples (which will also watch the component sour
 
 ## License
 
-__PUT LICENSE HERE__
+MIT
 
 Copyright (c) 2016 Jakub Gawlas.
 
