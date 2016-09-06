@@ -2,7 +2,7 @@
   "name": "react-dashing-background",
   "version": "1.0.0",
   "description": "react-dashing-background",
-  "main": "lib/ReactDashingBackground.js",
+  "main": "lib/DashingBackground.js",
   "author": "Jakub Gawlas",
   "homepage": "https://github.com/jakub-gawlas/react-dashing-background",
   "repository": {
